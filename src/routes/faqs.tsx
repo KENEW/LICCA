@@ -5,13 +5,16 @@ export default function FaqsPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="FAQ's">
+        <ArticleContent title="FAQ's ">
+          <div className='faqFirstTitleText'>
           <p>Here is a list of frequently asked questions.</p>
+            
+          </div>
           <details
             className="mt-4 block rounded-sm border px-4 hover:border-primary-300"
             open
           >
-            <summary className="-mx-4 cursor-pointer border-primary-200 py-3 px-4">
+            <summary className="-mx-4 cursor-pointer border-primary-200 py-3 px-4 faqTitleText">
               <u>Please tell me minting information?</u>
             </summary>
 
@@ -31,7 +34,7 @@ export default function FaqsPage() {
             </div>
 
           </details>
-          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
+          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300 faqTitleText">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
               <u>How can I use Holly?</u>
             </summary>
@@ -48,7 +51,7 @@ export default function FaqsPage() {
 
 
           </details>
-          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
+          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300 faqTitleText">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
               <u>Is there a holder benefit?</u>
             </summary>

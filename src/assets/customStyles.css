@@ -16,6 +16,14 @@
 
   }
 
+  .faqTitleText {
+    font-size: 2vh;
+  }
+
+  .faqFirstTitleText {
+    font-size: 2.5vh;
+  }
+
 .backgroundClass {
   background-color: #5f4e4b;
 }
@@ -38,7 +46,7 @@
   left: 50%;
   transform: translate(-50%, 0%);
   max-width: 800px;    font-size: 2em;
-  font-family: 'borsok';
+  font-family: 'boorsok';
 min-width : 450px;
 color: #5f4e4b;
 }
@@ -50,8 +58,8 @@ color: #5f4e4b;
 .homeLogoText {
   margin: auto;
   z-index:150 !important;
-  font-family: 'borsok';
-  font-size: 1.3vh;
+  font-family: 'boorsok';
+  font-size: 1.7vh;
   color:#5f4e4b;
 
 }
@@ -169,7 +177,7 @@ a {
 }
 
 .infoBox{
-    font-family : 'borsok';
+    font-family : 'boorsok';
     font-size: 2vh;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
@@ -193,7 +201,7 @@ a {
 }
 
 .infoTitle{
-    font-family : 'borsok';
+    font-family : 'boorsok';
     font-size: 24px;
 }
 

@@ -14,9 +14,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  
   plugins: [react()],
   publicDir: '/src/public',
   server: {
+    port: 8000,
     host: true
   }
 })

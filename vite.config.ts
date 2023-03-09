@@ -7,7 +7,7 @@ export default defineConfig({
   root: 'src',
   base: '/holly-react/',
   build: {
-    outDir: 'src/public/',
+    outDir: '../dist',
   },
   resolve: {
     alias: {

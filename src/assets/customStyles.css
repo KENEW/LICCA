@@ -1,0 +1,325 @@
+.headerPanel {
+    background-color: #4d3c39;
+    justify-content: center;
+    display: flex !important;
+  }
+  
+  .headerFont {
+    font-size: 2vh;
+    color: #4d3c39;
+
+  }
+
+  .faqContentText {
+    font-size: 1.5vh;
+    color: #362e2c;
+
+  }
+
+.backgroundClass {
+  background-color: #5f4e4b;
+}
+.homeLogo {
+    display: block !important;
+    position: relative;
+    z-index:150 !important;
+
+    max-width : 750px;
+    width: 100%;
+    margin: auto;
+}
+
+.homeLogoq {
+  justify-content: center;
+  display: block !important;
+  position: absolute;
+  z-index:150 !important;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  max-width: 800px;    font-size: 2em;
+  font-family: 'borsok';
+min-width : 450px;
+color: #5f4e4b;
+}
+
+.homeLogoBox {
+  width: 100%;
+}
+
+.homeLogoText {
+  margin: auto;
+  z-index:150 !important;
+  font-family: 'borsok';
+  font-size: 1.3vh;
+  color:#5f4e4b;
+
+}
+
+.homeLogoText1 {
+    justify-content: center;
+    
+    position: absolute;
+    z-index:150 !important;
+    bottom: 45%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+}
+
+.mainBox {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+
+    background-color: transparent;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 155;
+}
+
+.inputText {
+  font-size: 20px;
+}
+.socialIcon {
+    /*height: 35px;*/
+    width: 50px;
+}
+.footer .footerLink .iconBox {
+    height: 100%;
+    width: 100%;
+}
+.contentBox {
+  margin: 5%;
+}
+
+.sneakPic {
+    margin-left: 0%;
+    margin-bottom: 8%;
+    width: 100%;
+
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.footer .footerLink {
+
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.background {
+  background-color: #5f4e4b;
+  background-color: transparent;
+	background-image:
+	 radial-gradient(#5f4e4b11 3px, transparent 3px);
+	background-size: 20px 20px;
+}
+.walletStateFont {
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.socialIconli {
+     position:relative;
+}
+
+.homeLeftBottomArt{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index:5;
+}
+
+.homeRightBottomArt{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+    z-index:6;
+}
+
+.homeCenterBottomArt{
+    position: absolute;
+    bottom: 0px;
+    z-index:7;
+    
+ position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.infoBox{
+    font-family : 'borsok';
+    font-size: 2vh;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    text-align: center;
+}
+
+.boardText {
+  color: #5f4e4b;
+}
+
+.navItem {
+  margin-left: 1.4vh;
+  margin-right: 1.4vh;
+  margin-top: 1.4vh;
+  margin-bottom: 1.4vh;
+
+}
+
+.contentCanvas {
+    margin: 5%;
+}
+
+.infoTitle{
+    font-family : 'borsok';
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: "bouorsok";
+    font-weight: 700;
+    src: url("@assets/fonts/SpoqaHanSansNeo-Bold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "boorsok";
+    src: url("./public/fonts/boorsok.ttf");
+}
+
+.currentHeaderBorder {
+  border-bottom-width: 3px;
+  border-bottom-color: #5f4e4b;
+  border-bottom-style: inherit;
+}
+
+.wlCheckTitleFont {
+  font-size: 30px;
+}
+
+.button {
+    align-self: center;
+    font-family: "Patrick Hand SC", cursive;
+    background-color: #f7f8fa;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(245, 220, 255, 1) 4px 4px 1px 1px;
+    box-sizing: border-box;
+    color: #010606;
+    border-color: #010606;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 23px;
+    outline: none;
+    /*padding: 0.75rem;*/
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .buttonNo {
+    align-self: center;
+    font-family: "Patrick Hand SC", cursive;
+    background-color: #f7f8fa;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(245, 220, 255, 1) 4px 4px 1px 1px;
+    box-sizing: border-box;
+    color: #010606;
+    border-color: #010606;
+
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 23px;
+    outline: none;
+    /*padding: 0.75rem;*/
+    text-decoration: none;
+    
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .socialIconBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+  }
+
+  .socalIconSpace {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+  
+  .searchText {
+    font-family: 'borsok';
+    font-size: 30px;
+  }
+
+  .searchBox {
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #5f4e4b;
+  }
+
+  .button:hover {
+    transform: translate3d(0, -2px, 0);
+  }
+  
+  .button--text {
+    height: 3rem;
+  }
+  
+  .button--img {
+    width: 3rem;
+    height: 3rem;
+  }
+  

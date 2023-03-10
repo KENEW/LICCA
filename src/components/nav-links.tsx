@@ -2,10 +2,10 @@ import { NavLink } from 'react-router-dom'
 
 const NAV_LINKS = [
   { name: 'HOME', to: '/' },
-  { name: 'SNEAKPIC', to: '/about' },
+  { name: 'SNEAKPIC', to: '/sneakpic' },
   { name: 'ROADMAP', to: '/roadmap' },
-  { name: "FAQ", to: '/faqs' },
-  { name: 'WL', to: '/support' },
+  { name: "FAQ", to: '/faq' },
+  { name: 'WL', to: '/wlcheck' },
 ]
 
 export function NavLinks({ className }: { className?: string }) {

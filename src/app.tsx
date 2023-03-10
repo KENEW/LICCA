@@ -1,6 +1,6 @@
-import AboutPage from '@/routes/about'
-import ContactPage from '@/routes/contact'
-import FaqsPage from '@/routes/faqs'
+import AboutPage from '@/routes/sneakpic'
+import ContactPage from '@/routes/wlcheck'
+import FaqsPage from '@/routes/faq'
 import HomePage from '@/routes/home'
 import SupportPage from '@/routes/support'
 import RoadmapPage from './routes/roadmap'
@@ -23,11 +23,11 @@ export default function App() {
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<AboutPage />} />
+          <Route path="sneakpic" element={<AboutPage />} />
           <Route path="roadmap" element={<RoadmapPage />} />
           <Route path="contact" element={<ContactPage />} />
-          <Route path="faqs" element={<FaqsPage />} />
-          <Route path="support" element={<SupportPage />} />
+          <Route path="faq" element={<FaqsPage />} />
+          <Route path="wlcheck" element={<SupportPage />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

@@ -93,7 +93,9 @@ color: #5f4e4b;
 }
 
 .inputText {
-  font-size: 20px;
+  font-size: 2vh;
+  box-sizing: border-box;
+  padding: 3% 3%;
 }
 .socialIcon {
     /*height: 35px;*/
@@ -138,8 +140,8 @@ a {
   background-color: #5f4e4b;
   background-color: transparent;
 	background-image:
-	 radial-gradient(#5f4e4b11 3px, transparent 3px);
-	background-size: 20px 20px;
+	 radial-gradient(#5f4e4b11 5px, transparent 5px);
+	background-size: 30px 30px;
 }
 .walletStateFont {
     font-size: 20px;
@@ -304,7 +306,7 @@ a {
   }
   
   .searchText {
-    font-family: 'borsok';
+    font-family: 'boorsok';
     font-size: 30px;
   }
 

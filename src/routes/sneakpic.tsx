@@ -1,12 +1,13 @@
 import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
+import sneakpicImg from '/public/images/SneakPicList.png';
 
 export default function AboutPage() {
   return (
     <Layout>
       <Article>
         <ArticleContent title="SNEAK-PIC">
-        <img src='public\images\SneakPicList.png' className="sneakPic"/>
+        <img src={sneakpicImg} className="sneakPic"/>
 
           <div className='infoBox boardText'>
             <p>

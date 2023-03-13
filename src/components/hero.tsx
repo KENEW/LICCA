@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
+import roadmapImg from '/public/images/KigurumiLiccaLogo.png';
 
 import { NewsletterForm } from './newsletter-form'
 
@@ -52,7 +53,7 @@ export function Hero({
       </div>
 
       <div className="homeLogo">
-        <img src="public\images\KigurumiLiccaLogo.png" />
+        <img src={roadmapImg} />
       </div>
 
       <div className='homeLogoText'>

@@ -18,7 +18,7 @@ export default defineConfig({
   plugins: [react()],
   publicDir: '/src/public',
   server: {
-    port: 8000,
+    port: 80,
     host: true
   }
 })

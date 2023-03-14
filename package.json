@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "run-p dev:*",
     "dev:css": "postcss styles/tailwind.css -o src/assets/styles.css --watch",
-    "dev:vite": "vite --host 0.0.0.0 --port 80",
+    "dev:vite": "vite --host 0.0.0.0 --port 8080",
     "format": "prettier --write .",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "lint:fix": "eslint . --fix",
